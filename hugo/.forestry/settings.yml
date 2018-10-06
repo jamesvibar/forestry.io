@@ -5,7 +5,7 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: data
+  path: hugo/data
   label: data
   create: all
   match: "**/*"
