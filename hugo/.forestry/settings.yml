@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: hugo/config.toml
+  path: hugo/config
   label: Config
-  match: "**/*"
 - type: directory
   path: hugo/data
   label: Data
