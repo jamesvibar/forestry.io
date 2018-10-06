@@ -5,10 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: hugo/config.toml
+  path: config.toml
   label: Configuration
-  match: "**/*"
-  read_only: true
+  read_only: false
 - type: heading
   label: Content
 - type: directory
