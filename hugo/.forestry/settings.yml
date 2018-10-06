@@ -4,12 +4,11 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: directory
+- type: document
   path: hugo/data
   label: data
-  create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: ''
 - type: heading
   label: Content
 - type: directory
