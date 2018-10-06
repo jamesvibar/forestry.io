@@ -7,8 +7,7 @@ sections:
 - type: document
   path: hugo/data
   label: data
-  match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: '20181005233030'
 - type: heading
   label: Content
 - type: directory
