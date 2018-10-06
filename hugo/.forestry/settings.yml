@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: hugo/config
-  label: Config
 - type: directory
   path: hugo/data
   label: Data
