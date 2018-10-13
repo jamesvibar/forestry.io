@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: hugo/config.toml
+  label: Config
+  match: "**/*"
 - type: directory
   path: hugo/data
   label: Data
